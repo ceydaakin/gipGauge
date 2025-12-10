@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 3.10.2)
 
 ##### PLUGIN NAME #####
-set(pluginname gipEmptyPlugin)
+set(pluginname gipGauge)
 
 
 ##### PLUGIN PATHS #####
@@ -11,7 +11,7 @@ set(PLUGIN_LIBS_DIR ${PLUGIN_DIR}/libs)
 
 ##### PLUGIN SOURCES #####
 list(APPEND PLUGIN_SRCS
-			${PLUGIN_DIR}/src/gipEmptyPlugin.cpp
+			${PLUGIN_DIR}/src/gipGauge.cpp
 )
 
 
